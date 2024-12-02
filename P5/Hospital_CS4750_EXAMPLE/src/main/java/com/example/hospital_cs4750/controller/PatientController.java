@@ -25,7 +25,6 @@ public class PatientController {
 
     @GetMapping("/patients")
     public ResponseEntity<List<Patient>> getAllPatients(@RequestParam(required = false) String firstName) {
-        System.out.println("========= HERE ==========");
         try {
             List<Patient> patients = new ArrayList<Patient>();
 

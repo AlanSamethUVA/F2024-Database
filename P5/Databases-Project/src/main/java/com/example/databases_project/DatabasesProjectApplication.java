@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class HospitalCs4750Application {
+public class DatabasesProjectApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(HospitalCs4750Application.class, args);
+        SpringApplication.run(DatabasesProjectApplication.class, args);
     }
 
 }
