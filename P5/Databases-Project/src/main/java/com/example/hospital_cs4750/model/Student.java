@@ -16,7 +16,7 @@ public class Student {
     private long studentID;
 
     @Column(name = "student_id_encrypted")
-    private long studentEncrypted;
+    private byte[] studentEncrypted;
 
     @Column(name = "student_year")
     private long studentYear;
@@ -34,11 +34,11 @@ public class Student {
     public void setStudentID(long studentID) {
         this.studentID = studentID;
     }
-    public long getStudentEncrypted() {
+    public byte [] getStudentEncrypted() {
         return studentEncrypted;
     }
 
-    public void setStudentEncrypted(long studentEncrypted) {
+    public void setStudentEncrypted(byte [] studentEncrypted) {
         this.studentEncrypted = studentEncrypted;
     }
 
