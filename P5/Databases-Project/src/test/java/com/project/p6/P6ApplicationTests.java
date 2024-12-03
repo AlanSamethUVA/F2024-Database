@@ -1,10 +1,10 @@
-package com.example.Databases.Project;
+package com.project.p6;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class DatabasesProjectApplicationTests {
+class P6ApplicationTests {
 
 	@Test
 	void contextLoads() {
